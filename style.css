@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100vh;
+}
+
+.section-one {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 12vh;
+  padding-top: 10px;
+}
+
+.section-one h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.section-one nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.section-one nav ul li {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.section-two {
+  height: 52vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+}
+
+.slider-one, .slider-two, .slider-three, .slider-four {
+  width: 160px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.section-two img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.section-two p {
+  margin: 6px 0;
+  font-size: 12px;
+}
+
+.section-two button {
+  padding: 6px 14px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.section-three {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 36vh;
+  padding: 10px;
+}
+
+.section-three h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact-table {
+  margin: 0 auto;
+}
+
+.contact-form__input {
+  padding: 6px;
+  width: 220px;
+  margin: 4px 0;
+  border: none;
+  text-align: center;
+}
+
+.contact-form__submit {
+  padding: 10px 120px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
